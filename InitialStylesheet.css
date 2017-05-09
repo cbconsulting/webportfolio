@@ -1,0 +1,169 @@
+
+
+body
+{
+font-family:"Diplomata SC";
+font-weight:400;
+font-size:15px;
+color:#fafafa;
+ 
+}
+body,html 
+{
+    width: 100%;
+    height: 100%;
+    }
+
+h1
+{
+font-family:'Diplomata SC';
+color:#d5ede9;
+padding-top:50px;
+}
+.introHeader 
+{ 
+    margin-top: -25px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('http://cdn.wallpapersafari.com/11/23/CkJiIR.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 555px;
+}
+.contentSectionA{
+    padding: 50px 0;
+    background: url('https://images2.alphacoders.com/480/thumb-1920-480538.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+}
+.bgOverlay2 {
+  margin-top: -50px;
+  height: 755px;
+}
+.btn-lg:hover {
+  background-color: yellow;
+}
+.aboutMeSection {
+    font-size: 10px;
+    font-weight: 400;
+    font-family:Diplomata SC ;
+    color: orange;
+    background-color: black;
+}
+section {
+  color: black;
+  background: url('http://cdn.wallpapersafari.com/84/49/iOkHUo.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+ #below-section {
+  color: red;
+}
+#small-text {
+  color: White;
+}
+
+footer {
+    padding: 50px 10;
+    max-width: 150%;
+    background-color: Orange;
+
+}
+.wow {
+  color: black;
+  background-color: red;
+}
+.input {
+  width: 100%;
+  margin: 0;
+  padding: 0 6px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font: 16px/1 'Lato', san-serif;
+  color: $primary;
+}
+.bgOverlay4 {
+  margin-top: 0px;
+  margin-bottom: -5px;
+  height: 755px;
+  text-align: center;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFZ4U96pCyDuup1ASrPXVambKguxxCbxo538QLuOpVPd4ZqFzB') no-repeat center center fixed;
+  background-size: cover;
+  height: -1px;
+  font-size:10px;
+}
+$zindex-dropdown-backdrop:  990 !default;
+  $zindex-navbar:            1000 !default;
+  $zindex-dropdown:          1000 !default;
+  $zindex-fixed:             1030 !default;
+  $zindex-sticky:            1030 !default;
+  $zindex-modal-backdrop:    1040 !default;
+  $zindex-modal:             1050 !default;
+  $zindex-popover:           1060 !default;
+  $zindex-tooltip:           1070 !default; 
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+/* 
+// Extra large devices (large desktops, 1200px and up)
+ */@media (min-width: 1200px) { ... }
+
+
+
+
+/* NAV for code-pen being stuborn.....
+
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+ul.topnav {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 3;
+}
+
+ul.topnav li {
+float: left;
+border-right: 1px solid #404040;
+}
+
+ul.topnav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+}
+
+ul.topnav li a:hover:not(.active) {
+background-color: #111;
+}
+
+ul.topnav li a.active {
+background-color: blue;
+}
+
+ul.topnav li.right {
+float: right;
+}
+
+@media screen and (max-width: 600px) {
+ul.topnav li.right,
+ul.topnav li {
+float: none;
+}
+      /NAV */
